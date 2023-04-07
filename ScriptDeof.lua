@@ -27,7 +27,7 @@ RunService.Stepped:connect(
 local Name = "Poop Zombie Uprising.json"
 Des = {}
 if makefolder then
-    makefolder("V.G Hub")
+    makefolder("Poop Hub")
 end
 local Settings
 if
@@ -40,7 +40,7 @@ if
     writefile("Poop Hub//" .. Name, HttpService:JSONEncode(Des))
 end
 if readfile("Poop Hub//" .. Name) then
-Settings = HttpService:JSONDecode(readfile("V.G Hub//" .. Name))
+Settings = HttpService:JSONDecode(readfile("Poop Hub//" .. Name))
 end
 local function Save()
     writefile("Poop Hub//" .. Name, HttpService:JSONEncode(Settings))

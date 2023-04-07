@@ -1,5 +1,5 @@
 local Config = {
-    WindowName = "Poop Zombie Uprising",
+    WindowName = "Poop Zombie Uprising (loaded with poopray Gui)",
 	Color = Color3.fromRGB(255,128,64),
 	Keybind = Enum.KeyCode.RightControl
 }
